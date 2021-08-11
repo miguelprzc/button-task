@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+}
+
+.donate-section{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.donate-btn{
+  background: linear-gradient(to bottom right, #1D74FF,#60D9FF);
+  border-color: transparent;
+  border-radius: 22px;
+  box-shadow: inset 0 0 0 0 #000;
+  color: #FFF;
+  font-family: 'Recursive', sans-serif;
+  font-size: 52px;
+  height: 148px;
+  transition: background-position 300ms;
+  width: 423px;
+}
+
+.donate-btn:hover{
+  background: linear-gradient(to bottom right, #60D9FF,#1D74FF);
+  cursor: pointer;
+  background-position: -421px ;  
+}
